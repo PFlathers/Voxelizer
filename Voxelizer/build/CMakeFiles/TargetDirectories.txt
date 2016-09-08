@@ -1,0 +1,3 @@
+/Users/f/Documents/Vox/Voxelizer/build/CMakeFiles/edit_cache.dir
+/Users/f/Documents/Vox/Voxelizer/build/CMakeFiles/rebuild_cache.dir
+/Users/f/Documents/Vox/Voxelizer/build/CMakeFiles/voxelizer.dir
