@@ -1,17 +1,11 @@
 //
 //  CompFab.cpp
 //  voxelizer
-//
-//  Created by David Levin on 2/3/14.
-//
-//
 
 #include "../include/CompFab.h"
 
 
 using namespace CompFab;
-
-
 
 
 
@@ -29,7 +23,7 @@ CompFab::Vec3Struct::Vec3Struct(double x, double y, double z)
 
 void CompFab::Vec3Struct::normalize() {
     
-    double magnitude = sqrt(m_x*m_x+m_y*m_y+m_z*m_z);
+    float magnitude = sqrt(m_x*m_x+m_y*m_y+m_z*m_z);
     
     if(magnitude > EPSILON)
     {

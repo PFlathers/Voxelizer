@@ -1,5 +1,4 @@
 //Computational Fabrication Assignment #1
-// By David Levin 2014
 #include <iostream>
 #include <vector>
 #include "../include/CompFab.h"
@@ -26,7 +25,7 @@ int rayTriangleIntersection(CompFab::Ray &ray, CompFab::Triangle &triangle)
 
     CompFab::Vec3 P, Q, T; // temporary variable to find the position in which the ray
                             // crosses the surface
-    double det, indet, u, v, t;
+    float det, indet, u, v, t;
      
 
     P = ray.m_direction%e2;
